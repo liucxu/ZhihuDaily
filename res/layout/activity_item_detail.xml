@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/share_weixin_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信好友"
+        android:visibility="gone" >
+    </Button>
+
+    <Button
+        android:id="@+id/share_weixin_friend_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信朋友圈"
+        android:visibility="gone" >
+    </Button>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/footbar_detail_activity" />
+
+</RelativeLayout>

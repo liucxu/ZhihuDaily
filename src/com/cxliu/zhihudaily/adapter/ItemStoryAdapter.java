@@ -156,7 +156,7 @@ public class ItemStoryAdapter extends BaseAdapter
 	 */
 	public void loadMoreItems(List<ItemStory> itemStories)
 	{
-		items.addAll(itemStories);
+				items.addAll(itemStories);
 		this.notifyDataSetChanged();
 	}
 
